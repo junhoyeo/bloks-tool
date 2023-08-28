@@ -229,6 +229,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bloks-parser@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "bloks-parser@workspace:."
+  dependencies:
+    "@types/node": ^18.14.6
+    cross-env: ^7.0.3
+    nodemon: ^2.0.21
+    ts-node: ^10.9.1
+    ts-node-dev: ^2.0.0
+    typescript: 5.0.4
+  languageName: unknown
+  linkType: soft
+
 "brace-expansion@npm:^1.1.7":
   version: 1.1.11
   resolution: "brace-expansion@npm:1.1.11"
@@ -1048,19 +1061,6 @@ __metadata:
   checksum: 050c865ce81119c4822c45d3c84f1ced46f93a0126febae20737bd05ca20589c564d6e9226977df859ed5e03dc73f02584a2b0faad36e896936238238b0446cf
   languageName: node
   linkType: hard
-
-"please-edit-this-name@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "please-edit-this-name@workspace:."
-  dependencies:
-    "@types/node": ^18.14.6
-    cross-env: ^7.0.3
-    nodemon: ^2.0.21
-    ts-node: ^10.9.1
-    ts-node-dev: ^2.0.0
-    typescript: 5.0.4
-  languageName: unknown
-  linkType: soft
 
 "promise-inflight@npm:^1.0.1":
   version: 1.0.1

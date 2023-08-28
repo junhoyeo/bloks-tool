@@ -1,3 +1,3 @@
-<h1>@kroxilon/typescript-modern-yarn-template</h1>
+# bloks-parser
 
-This is a template setup for using typescript with modern yarn and IntelliJ IDEA.
+Hello world!

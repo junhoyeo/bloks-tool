@@ -1,12 +1,11 @@
 {
-  "name": "please-edit-this-name",
+  "name": "bloks-parser",
   "version": "0.0.0",
   "description": "",
   "scripts": {
     "dev": "nodemon ./src/index.ts",
     "build": "yarn tsc && echo build complete",
     "start": "yarn node ./lib/index.js",
-    "cleanup": "ts-node ./scripts/cleanup.ts",
     "test": "echo no tests && exit 0"
   },
   "keywords": [

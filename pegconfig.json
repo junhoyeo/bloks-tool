@@ -1,0 +1,7 @@
+{
+    "tspegjs": {
+    },
+    "returnTypes": {
+        "BlokExpression": "[Term, ...TailPart[]]"
+    }
+}

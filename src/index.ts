@@ -1,4 +1,4 @@
-import {BlokExpression, parse, TailPart} from "./generated/blok-parser.peggy";
+import {BlokExpression, parse, TailPart} from "./generated/bloks-tool.peggy";
 
 export const parseBloks = parse;
 

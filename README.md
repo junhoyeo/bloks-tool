@@ -1,19 +1,19 @@
-# bloks-parser
+# bloks-tool
 
 Npm package for parsing Instagram's BLOCKS format.
 
-Uses peggy to generate a parser from the grammar in `src/blok-parser.peggy`.
+Uses peggy to generate a parser from the grammar in `src/bloks-tool.peggy`.
 
 ## Usage
 
 Install the package:
 
 ```sh
-yarn add bloks-parser
+yarn add bloks-tool
 ```
 
 ```ts
-import {parseBloks, visitBloks} from "blok-parser";
+import {parseBloks, visitBloks} from "bloks-tool";
 
 const bloks = parseBloks(rawBloks);
 

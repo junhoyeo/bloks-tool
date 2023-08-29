@@ -1663,4 +1663,4 @@ export type TailPart =
 export type Tail = [TailPart, ...TailPart[]];
 export type Term = string;
 export type _ = string[];
-//# sourceMappingURL=blok-parser.peggy.ts.map
+//# sourceMappingURL=bloks-tool.peggy.ts.map

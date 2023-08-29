@@ -1,10 +1,10 @@
 {
-  "name": "bloks-parser",
+  "name": "bloks-tool",
   "version": "0.0.0",
   "description": "",
   "scripts": {
     "dev": "nodemon ./src/index.ts",
-    "peg": "peggy --plugin ts-pegjs -m --extra-options-file pegconfig.json src/blok-parser.peggy -o src/generated/blok-parser.peggy.ts",
+    "peg": "peggy --plugin ts-pegjs -m --extra-options-file pegconfig.json src/bloks-tool.peggy -o src/generated/bloks-tool.peggy.ts",
     "build": "yarn peg && yarn tsc && echo build complete",
     "start": "yarn node ./lib/index.js",
     "test": "echo no tests && exit 0"

@@ -2,6 +2,9 @@
   "name": "bloks-tool",
   "version": "0.0.0",
   "description": "",
+  "author": "firtoz",
+  "license": "MIT",
+  "repository": "https://github.com/firtoz/bloks-tool",
   "scripts": {
     "dev": "nodemon ./src/index.ts",
     "peg": "peggy --plugin ts-pegjs -m --extra-options-file pegconfig.json src/bloks-tool.peggy -o src/generated/bloks-tool.peggy.ts",
